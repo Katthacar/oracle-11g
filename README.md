@@ -37,3 +37,11 @@ To execute impdp/expdp just use docker exec command:
 ```sh
 docker exec -it oracle11g impdp ..
 ```
+To execute bash:
+```sh
+docker exec -it oracle11g bash
+```
+or:
+```sh
+docker exec -it oracle11g /bin/bash
+```
